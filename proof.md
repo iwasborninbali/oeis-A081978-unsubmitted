@@ -1,0 +1,5 @@
+# Derivation of the three forms
+
+Let j be an odd prime, r=j−1, and suppose that T_k=k(k+1)/2 has exactly 2j divisors. The divisor-count formula permits either one prime with exponent 2j−1, or two distinct primes with exponents j−1 and 1. For k≥3, the two coprime factors of T_k below are both greater than 1, so the one-prime case is impossible; k=1,2 have 1 and 2 divisors respectively. Thus T_k=p^r q for distinct primes p,q.
+
+Write T_(2m)=m(2m+1) and T_(2m−1)=m(2m−1). Their two factors are coprime. Assigning p^r and q to them gives respectively q=2p^r+1 or q=(p^r−1)/2, and q=2p^r−1 or q=(p^r+1)/2. The minus-half case is impossible: p=2 makes it nonintegral, while odd p and even r give p^r≡1 (mod 8), so (p^r−1)/2 is divisible by 4 and cannot be prime. The remaining three forms are necessary; in each, when q is a distinct prime and the half-expression is integral, the corresponding factorization gives a triangular number with 2j divisors. This proves the corrected characterization. It does not prove the existence conjecture.

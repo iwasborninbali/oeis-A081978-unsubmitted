@@ -1,0 +1,3 @@
+triangular indices checked: 20000
+counts by corrected forms: 15 3 16
+old minus form at p=331, r=256 is divisible by 4: True
