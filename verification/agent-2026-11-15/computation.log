@@ -1,0 +1,10 @@
+method: linear sieve of tau(n) plus independent prime-power witness generator
+range: 1 <= k <= 30000000
+baseline k<=20000: cases=34 f1=15 f2=3 f3=16
+all: cases=270 f1=137 f2=3 f3=130
+generated eligible indices=270
+false positives=0 false negatives=0 overlapping forms=0
+by j (tau(T_k)=2j): 3:247 5:16 7:3 13:2 17:1 19:1
+331^256 mod 8=1; (331^256-1)/2 mod 4=0
+status=PASS
+wall_seconds=0.68 user_cpu_seconds=0.32 system_cpu_seconds=0.35 peak_kb=244192
